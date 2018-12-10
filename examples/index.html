@@ -1,0 +1,12 @@
+<html>
+    <title>Example Bitbox App</title>
+    <script src="https://honest.cash/js/simple-bitcoin-wallet.min.js"></script>
+
+    <script>
+        (async () => {
+            const result = await bitbox.Util.validateAddress("bitcoincash:qp2rmj8heytjrksxm2xrjs0hncnvl08xwgkweawu9h");
+
+            console.log(result);
+        })();
+    </script>
+</html>
